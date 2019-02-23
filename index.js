@@ -40,8 +40,8 @@ function validate (validationObj) {
       validateObject(ctx.params, 'URL Parameters', validationObj.params)
       validateObject(ctx.query, 'URL Query', validationObj.query)
 
-      if (ctx.request.body) {
-        validateObject(ctx.request.body, 'Request Body', validationObj.body)
+      if (ctx.req.body) {
+        validateObject(ctx.req.body, 'Request Body', validationObj.body)
       }
 
       return next()

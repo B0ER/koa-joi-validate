@@ -1,6 +1,7 @@
 # Koa-Joi-Validate
 
 A tiny module to provide Joi validation middleware within a Koa server.
+With fix error. (Koa 2.7.0)
 
 Calling the module allows you to easily generate [Koa](https://github.com/koajs/koa) middleware to validate incoming requests using [Joi](https://github.com/hapijs/joi).
 
